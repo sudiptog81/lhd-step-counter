@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 stepCount += event.values[0];
 
                 tvCounter.setText("" + stepCount);
+
+                Log.d(TAG, "Step Detected");
             }
         }
     }
